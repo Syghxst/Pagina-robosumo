@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda Online - Bienvenida</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Material Icons y Font Awesome para íconos -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Logo" />
+      </div>
+      <div class="search-container">
+        <span class="material-icons search-icon">search</span>
+        <input type="text" class="search" placeholder="Buscar..." />
+      </div>
+      <button class="login-btn">Inicia Sesión</button>
+      <div class="cart" id="cart-btn">
+        <span class="material-icons">shopping_cart</span>
+        <span id="cart-count">0</span>
+      </div>
+    </div>
+
+    <div class="main-banner"></div>
+
+    <h2 class="section-title">PRODUCTOS MÁS VENDIDOS</h2>
+    <div class="products-grid">
+      <div class="product-box">
+        <a href="uno.html" class="product-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" alt="Arduino Uno" />
+          <span>Arduino Uno</span>
+        </a>
+        <button class="add-cart-btn" data-name="Arduino Uno" data-price="450">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="nano.html" class="product-link">
+          <img src="https://drive.google.com/file/d/10O8eYceMrzBtwGyt2waGzP-zHG4p01wa/view?usp=drive_link" alt="Arduino Nano" />
+          <span>Arduino Nano</span>
+        </a>
+        <button class="add-cart-btn" data-name="Arduino Nano" data-price="300">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="298n.html" class="product-link">
+          <img src="https://www.electronicwings.com/public/images/user_images/images/Arduino/L298N-Motor-Driver-Module.png" alt="Puente en H L298N" />
+          <span>Puente en H L298N</span>
+        </a>
+        <button class="add-cart-btn" data-name="Puente en H L298N" data-price="120">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="293dn.html" class="product-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/L293D_Motor_Driver_IC.jpg" alt="Puente en H L293D" />
+          <span>Puente en H L293D</span>
+        </a>
+        <button class="add-cart-btn" data-name="Puente en H L293D" data-price="80">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="reductor.html" class="product-link">
+          <img src="https://www.electronicwings.com/public/images/user_images/images/Arduino/TT-Gear-Motor.png" alt="Motor Reductor" />
+          <span>Motor Reductor</span>
+        </a>
+        <button class="add-cart-btn" data-name="Motor Reductor" data-price="90">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="n20.html" class="product-link">
+          <img src="https://cdn.sparkfun.com//assets/parts/1/1/0/7/13302-01.jpg" alt="Motor N20" />
+          <span>Motor N20</span>
+        </a>
+        <button class="add-cart-btn" data-name="Motor N20" data-price="110">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="sluz.html" class="product-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Photoresistor_LDR.jpg" alt="Sensor de Luz" />
+          <span>Sensor de Luz</span>
+        </a>
+        <button class="add-cart-btn" data-name="Sensor de Luz" data-price="25">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="scolor.html" class="product-link">
+          <img src="https://www.electronicwings.com/public/images/user_images/images/Arduino/TCS3200-Color-Sensor-Module.png" alt="Sensor de Color" />
+          <span>Sensor de Color</span>
+        </a>
+        <button class="add-cart-btn" data-name="Sensor de Color" data-price="120">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="ultrasonico.html" class="product-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/HC-SR04_ultrasonic_sensor.jpg" alt="Sensor Ultrasonico" />
+          <span>Sensor Ultrasonico</span>
+        </a>
+        <button class="add-cart-btn" data-name="Sensor Ultrasonico" data-price="40">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="infrarrojo.html" class="product-link">
+          <img src="https://www.electronicwings.com/public/images/user_images/images/Arduino/IR-Sensor-Module.png" alt="Sensor Infrarrojo" />
+          <span>Sensor Infrarrojo</span>
+        </a>
+        <button class="add-cart-btn" data-name="Sensor Infrarrojo" data-price="30">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="llantas.html" class="product-link">
+          <img src="https://cdn.sparkfun.com//assets/parts/1/1/0/7/13259-01.jpg" alt="Llantas" />
+          <span>Llantas</span>
+        </a>
+        <button class="add-cart-btn" data-name="Llantas" data-price="35">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="jumper.html" class="product-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Jumper_wire.jpg" alt="Bolsa de Jumper Surtida" />
+          <span>Bolsa de Jumper Surtida</span>
+        </a>
+        <button class="add-cart-btn" data-name="Bolsa de Jumper Surtida" data-price="20">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="9v.html" class="product-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/9V_battery.jpg" alt="Batería 9V" />
+          <span>Batería 9V</span>
+        </a>
+        <button class="add-cart-btn" data-name="Batería 9V" data-price="15">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="litio.html" class="product-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Lithium-Ion_battery.jpg" alt="Batería Litio" />
+          <span>Batería Litio</span>
+        </a>
+        <button class="add-cart-btn" data-name="Batería Litio" data-price="40">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="porta.html" class="product-link">
+          <img src="https://cdn.sparkfun.com//assets/parts/1/1/0/7/13251-01.jpg" alt="Porta batería" />
+          <span>Porta batería</span>
+        </a>
+        <button class="add-cart-btn" data-name="Porta batería" data-price="25">Agregar</button>
+      </div>
+      <div class="product-box">
+        <a href="cable.html" class="product-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/USB_A-B_cable.jpg" alt="Cable para Arduino" />
+          <span>Cable para Arduino</span>
+        </a>
+        <button class="add-cart-btn" data-name="Cable para Arduino" data-price="15">Agregar</button>
+      </div>
+    </div>
+
+    <button class="see-more-btn">Ver más productos</button>
+
+    <footer>
+      <div class="contact">
+        <span>Contactanos:</span>
+        <span class="footer-icon"><i class="fa-regular fa-envelope"></i></span>
+        <span class="email">armeya.oficial@gmail.com</span>
+        <span class="footer-icon"><i class="fa-brands fa-instagram"></i></span>
+        <span class="instagram">@armeya.oficial</span>
+      </div>
+    </footer>
+
+    <!-- Carrito Modal -->
+    <div id="cart-modal" class="cart-modal">
+      <div class="cart-modal-content">
+        <span class="close" id="close-cart">&times;</span>
+        <h3>Carrito de Compras</h3>
+        <div id="cart-items"></div>
+        <div id="cart-total"></div>
+      </div>
+    </div>
+  </div>
+  <script src="cart.js"></script>
+  <script>
+    // Código para manejar el carrito (igual que antes)
+    const cartBtn = document.getElementById('cart-btn');
+    const cartModal = document.getElementById('cart-modal');
+    const closeCart = document.getElementById('close-cart');
+    const cartItemsDiv = document.getElementById('cart-items');
+    const cartTotalDiv = document.getElementById('cart-total');
+    const cartCount = document.getElementById('cart-count');
+    const addCartBtns = document.querySelectorAll('.add-cart-btn');
+
+    let cart = [];
+
+    function updateCart() {
+      cartItemsDiv.innerHTML = '';
+      let total = 0;
+      cart.forEach((item, idx) => {
+        total += item.price * item.quantity;
+        cartItemsDiv.innerHTML += `
+          <div class="cart-item">
+            <span>${item.name}</span>
+            <input type="number" min="1" value="${item.quantity}" data-idx="${idx}" class="qty-input"/>
+            <span>Q${item.price}</span>
+            <span>Q${item.price * item.quantity}</span>
+            <button class="remove-btn" data-idx="${idx}">Quitar</button>
+          </div>
+        `;
+      });
+      cartTotalDiv.innerHTML = Total: Q${total};
+      cartCount.textContent = cart.reduce((sum, item) => sum + item.quantity, 0);
+    }
+
+    addCartBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const name = btn.getAttribute('data-name');
+        const price = parseInt(btn.getAttribute('data-price'));
+        const idx = cart.findIndex(item => item.name === name);
+        if (idx > -1) {
+          cart[idx].quantity += 1;
+        } else {
+          cart.push({ name, price, quantity: 1 });
+        }
+        updateCart();
+      });
+    });
+
+    cartBtn.addEventListener('click', () => {
+      cartModal.style.display = 'flex';
+      updateCart();
+    });
+
+    closeCart.addEventListener('click', () => {
+      cartModal.style.display = 'none';
+    });
+
+    // Cambiar cantidad y quitar producto
+    cartItemsDiv.addEventListener('input', (e) => {
+      if (e.target.classList.contains('qty-input')) {
+        const idx = e.target.getAttribute('data-idx');
+        let val = parseInt(e.target.value);
+        if (isNaN(val) || val < 1) val = 1;
+        cart[idx].quantity = val;
+        updateCart();
+      }
+    });
+    cartItemsDiv.addEventListener('click', (e) => {
+      if (e.target.classList.contains('remove-btn')) {
+        const idx = e.target.getAttribute('data-idx');
+        cart.splice(idx, 1);
+        updateCart();
+      }
+    });
+
+    // Cierra modal si das click fuera del contenido
+    window.onclick = function(event) {
+      if (event.target == cartModal) {
+        cartModal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
