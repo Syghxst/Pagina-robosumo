@@ -21,15 +21,6 @@ html, body {
   background: #fff;
 }
 
-/* Elimina o comenta este bloque:
-@media (max-width: 1000px) {
-  .container {
-    width: 430px;
-    min-width: 430px;
-    max-width: 430px;
-  }
-}
-*/
 
 .top-bar {
   display: flex;
