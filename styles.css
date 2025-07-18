@@ -9,8 +9,8 @@ html, body {
 }
 
 .container {
-  width: 90vw;           /* Ocupa el 90% del ancho de la ventana */
-  max-width: 1200px;     /* Máximo 1200px de ancho */
+  width: 90vw;           
+  max-width: 1200px;    
   min-height: 98vh;
   margin: 18px auto 0 auto;
   border-radius: 10px;
